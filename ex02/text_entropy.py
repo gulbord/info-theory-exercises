@@ -30,7 +30,7 @@ def cond_entropy(text):
 
 
 def main():
-    with open("text", "r") as file:
+    with open("../data/text", "r") as file:
         text = file.read()
 
     shannon_entropy = entropy(char_probs(text))
